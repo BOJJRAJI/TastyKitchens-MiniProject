@@ -1,0 +1,202 @@
+.home-main-bg-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* carousel classes */
+.carousel-loader-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.carousel-container {
+  width: 90%;
+}
+
+@media screen and (max-width: 576px) {
+  .carousel-container {
+    width: 100%;
+  }
+}
+
+/* sort container classes */
+.sort-by-bg-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.sort-by-container {
+  width: 90%;
+  border-bottom: 1px solid #cbd2d9;
+}
+.popular-heading {
+  margin-bottom: 0px;
+  font-family: DM Sans;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+  color: #183b56;
+}
+.heading-search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 0px;
+}
+.search-input-container {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.search-input {
+  background-color: #f1f5f9;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+}
+
+.search-icon {
+  color: #475569;
+  width: 20px;
+  height: 20px;
+}
+.filter-para-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 100%;
+  margin-top: 0px;
+}
+.filter-para {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #64748b;
+}
+.sort-by-select-para-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+}
+.filter-text {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #475569;
+}
+.filter-select-element {
+  border: none;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #475569;
+  outline: none;
+}
+.filter-icon {
+  margin-top: 17px;
+  margin-right: 1px;
+  margin-left: 2px;
+}
+@media screen and (max-width: 576px) {
+  .sort-by-container {
+    width: 100%;
+    border-bottom: 1px solid #cbd2d9;
+    padding: 20px;
+  }
+  .heading-search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .filter-para-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .popular-heading {
+    font-size: 24px;
+  }
+  .filter-para {
+    font-size: 12px;
+  }
+}
+
+/* restaurants loader classes */
+.food-items-loader-container {
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* restaurants failure view classes */
+.food-items-failure-container {
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.no-food-items-para {
+  margin-bottom: 0px;
+  font-family: DM Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #183b56;
+}
+
+/* display restaurants classes */
+.restaurants-lists-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+@media screen and (max-width: 576px) {
+  .restaurants-lists-container {
+    width: 100%;
+  }
+}

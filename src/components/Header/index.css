@@ -1,0 +1,117 @@
+.complete-header-for-large {
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.header-logo-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  background: none;
+  border: none;
+}
+.tasty-kitchen-header-logo-text {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #f7931e;
+  margin-left: 10px;
+}
+.header-menu-un-order-list-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.header-list-item-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.355556px;
+  margin-right: 15px;
+  color: #334155;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+}
+.logout-button-header {
+  width: 73px;
+  height: 32px;
+  background: #f7931e;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+.complete-header-for-mobile-device {
+  display: none;
+}
+
+/* Mobile Menu */
+@media all and (max-width: 576px) {
+  .complete-header-for-large {
+    display: none;
+  }
+  .complete-header-for-mobile-device {
+    display: block;
+  }
+  .header-menu-mobile-show {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  .header-logo-image-container-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .tasty-kitchen-header-logo-text-mobile {
+    font-family: 'DM Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #f7931e;
+    margin-left: 10px;
+  }
+  .hidden-part-mobile-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  .mobile-menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+}
+.active-header-css {
+  color: #f7931e;
+  background-color: transparent;
+}
+.list-item {
+  background-color: transparent;
+}
+.header-route-link-item-button {
+  background: none;
+  border: none;
+}
+.text-Decoration-for-link {
+  text-decoration: none;
+}

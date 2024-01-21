@@ -1,0 +1,113 @@
+.cart-item-list-container {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.large-cart-item-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cart-item-image-name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+.larger-cart-item-image {
+  height: 110px;
+  width: 150px;
+  border-radius: 8px;
+}
+.cart-item-name {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  color: #183b56;
+  margin-left: 3px;
+}
+
+.mobile-cart-item-display-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.cart-item-quantity-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 30%;
+}
+.cart-item-quantity-button {
+  border: 1px solid #3e4c59;
+  color: #3e4c59;
+  background: transparent;
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+}
+.cart-item-quantity-para {
+  margin-left: 7px;
+  margin-right: 7px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  color: #475569;
+}
+.cart-item-cost-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffa412;
+}
+.cart-item-price {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffa412;
+}
+
+/* mobile classes */
+.mobile-cart-item-container {
+  display: none;
+}
+.mobile-cart-items-main-image {
+  height: 150px;
+  width: 50%;
+  border-radius: 8px;
+}
+.mobile-cart-item-display-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .large-cart-item-container {
+    display: none;
+  }
+  .cart-item-name {
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .mobile-cart-item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .cart-item-cost-container {
+    margin-top: 0px;
+  }
+}

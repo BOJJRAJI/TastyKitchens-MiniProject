@@ -1,0 +1,36 @@
+.responsive-footer-design {
+  background-color: #0f172a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;
+  margin-top: 10px;
+}
+.footer-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer-logo-text {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 10px;
+}
+.footer-paragraph {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  margin: 15px;
+  text-align: center;
+}
+.footer-social-icons-styles {
+  margin: 0px 5px 0px 5px;
+}

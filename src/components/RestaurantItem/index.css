@@ -1,0 +1,72 @@
+.restaurant-item {
+  width: 30%;
+  margin: 10px;
+}
+@media screen and (max-width: 780px) {
+  .restaurant-item {
+    width: 46%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .restaurant-item {
+    width: 100%;
+  }
+}
+.restaurant-link {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+.restaurant-image {
+  width: 50%;
+  height: 150px;
+  border-radius: 10px;
+}
+.restaurant-details-container {
+  margin-left: 6px;
+  width: 50%;
+  font-family: 'DM Sans';
+  font-style: normal;
+  color: #334155;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.restaurant-name {
+  font-weight: 700;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.restaurant-cuisine {
+  font-size: 14px;
+  margin: 0px;
+}
+.restaurant-rating-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+  margin-top: 5px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  color: #334155;
+}
+.restaurant-star {
+  font-size: 14px;
+  color: #ffcc00;
+}
+.restaurant-rating-para {
+  margin: 0px;
+  color: #1e293b;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.restaurant-reviews-para {
+  margin: 0px;
+  color: #64748b;
+  font-size: 12px;
+  margin-left: 5px;
+}

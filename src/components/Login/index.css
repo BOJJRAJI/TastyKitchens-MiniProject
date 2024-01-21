@@ -1,0 +1,169 @@
+.login-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+.mobile-view-container {
+  display: none;
+}
+.mobile-login-para-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 18%;
+}
+.mobile-login-para {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 500;
+
+  text-align: center;
+  color: #0f172a;
+}
+.mobile-image {
+  width: 80%;
+  height: 250px;
+}
+.large-device-image {
+  width: 50vw;
+  height: 100vh;
+}
+@media screen and (max-width: 576px) {
+  .login-container {
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .mobile-view-container {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .large-device-image {
+    display: none;
+  }
+}
+
+/* form container class */
+.form-bg-container {
+  width: 50vw;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.form {
+  text-align: center;
+  width: 350px;
+  flex-shrink: 0;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+  padding: 48px;
+  min-height: 60vh;
+}
+.app-logo {
+  width: 53px;
+  height: 43px;
+  top: 298px;
+  left: 366px;
+  padding: 2px;
+}
+.kitchen-para {
+  font-family: DM Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #f7931e;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.login-para {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  color: #0f172a;
+  margin-top: 2px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 100%;
+  text-align: left;
+}
+.label-element {
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  margin-bottom: 3px;
+}
+.input-element {
+  font-size: 14px;
+  height: 35px;
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.login-button {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  background: #f7931e;
+  width: 100%;
+  border: none;
+  height: 35px;
+  margin-top: 10px;
+  color: #ffffff;
+  border-radius: 2px;
+}
+.login-error-msg {
+  text-align: left;
+  align-self: start;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}
+@media screen and (max-width: 576px) {
+  .form-bg-container {
+    width: 100%;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: none;
+  }
+  .kitchen-para {
+    display: none;
+  }
+  .login-para {
+    display: none;
+  }
+  .app-logo {
+    display: none;
+  }
+}
